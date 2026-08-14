@@ -30,7 +30,7 @@ int RunOneProblem(const ProblemEntry& problem) {
 }  // namespace
 
 int main() {
-    const std::string problem = "88.Merge Sorted Array";
+    const std::string problem = "16.Three Sum Closest";
 
     const ProblemEntry* entry = FindProblemByName(problem);
     

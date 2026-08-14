@@ -80,3 +80,8 @@ ProblemRegistrar registrar("题号. 题目名", RunChecks);
 - 为所有已实现题目补齐注册与统一输出格式。
 - 增加 CI（例如 GitHub Actions）做自动构建检查。
 - 按专题整理题目（哈希、双指针、链表、树、DP 等）。
+
+## 刷题计划
+
+[查看刷题计划](刷题计划.md)
+
