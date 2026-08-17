@@ -22,7 +22,7 @@ add_executable(leetcode_app
   src/main.cpp
   src/ProblemRegistry.cpp
   ${PROBLEM_SOURCES}
- "src/problem/16.threeSumClosest.cpp" "src/problem/121.maxProfit.cpp")
+  "src/problem/59.generateMatrix.cpp" "src/problem/541.reverseStr.cpp")
 
 target_link_libraries(leetcode_app
   PRIVATE
