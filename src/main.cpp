@@ -30,7 +30,7 @@ int RunOneProblem(const ProblemEntry& problem) {
 }  // namespace
 
 int main() {
-    const std::string problem = "541.reverseStr";
+    const std::string problem = "45.jump";
 
     const ProblemEntry* entry = FindProblemByName(problem);
     
