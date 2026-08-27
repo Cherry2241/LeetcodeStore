@@ -22,7 +22,7 @@ add_executable(leetcode_app
   src/main.cpp
   src/ProblemRegistry.cpp
   ${PROBLEM_SOURCES}
-  "src/problem/18.fourSum.cpp""src/problem/27.removeElement.cpp")
+  "src/problem/111.minDepth.cpp""src/problem/27.removeElement.cpp")
 
 target_link_libraries(leetcode_app
   PRIVATE
