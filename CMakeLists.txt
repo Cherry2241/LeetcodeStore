@@ -22,7 +22,7 @@ add_executable(leetcode_app
   src/main.cpp
   src/ProblemRegistry.cpp
   ${PROBLEM_SOURCES}
-  "src/problem/111.minDepth.cpp""src/problem/27.removeElement.cpp" "src/problem/242.isAnagram.cpp" "src/problem/1002.commonChars.cpp")
+  "src/problem/860.lemonadeChange.cpp" "src/problem/51.solveNQueens.cpp")
 
 target_link_libraries(leetcode_app
   PRIVATE
