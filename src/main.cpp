@@ -30,7 +30,7 @@ int RunOneProblem(const ProblemEntry& problem) {
 }  // namespace
 
 int main() {
-    const std::string problem = "860.lemonadeChange";
+    const std::string problem = "67.addBinary";
 
     const ProblemEntry* entry = FindProblemByName(problem);
     
