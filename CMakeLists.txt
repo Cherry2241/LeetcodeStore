@@ -22,7 +22,7 @@ add_executable(leetcode_app
   src/main.cpp
   src/ProblemRegistry.cpp
   ${PROBLEM_SOURCES}
-  "src/problem/56.merge.cpp" "src/problem/51.solveNQueens.cpp" "src/problem/67.addBinary.cpp")
+  "src/problem/56.merge.cpp" "src/problem/51.solveNQueens.cpp" "src/problem/222.countNodes.cpp")
 
 target_link_libraries(leetcode_app
   PRIVATE
