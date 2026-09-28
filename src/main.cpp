@@ -30,7 +30,7 @@ int RunOneProblem(const ProblemEntry& problem) {
 }  // namespace
 
 int main() {
-    const std::string problem = "222.countNodes";
+    const std::string problem = "119.getRow";
 
     const ProblemEntry* entry = FindProblemByName(problem);
     
