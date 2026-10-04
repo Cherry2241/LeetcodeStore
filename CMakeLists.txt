@@ -22,7 +22,7 @@ add_executable(leetcode_app
   src/main.cpp
   src/ProblemRegistry.cpp
   ${PROBLEM_SOURCES}
-  "src/problem/213.rob.cpp" "src/problem/112.hasPathSum.cpp" "src/problem/119.getRow.cpp")
+  "src/problem/168.convertToTitle.cpp" "src/problem/125.isPalindrome.cpp" "src/problem/119.getRow.cpp")
 
 target_link_libraries(leetcode_app
   PRIVATE
