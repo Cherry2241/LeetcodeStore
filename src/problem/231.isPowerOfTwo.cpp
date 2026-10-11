@@ -2,7 +2,7 @@
 #include "helper/VerifyHelper.h"
 #include "ProblemRegistry.h"
 using namespace std;
-namespace problem_2231_isPowerOfTwo {
+namespace problem_231_isPowerOfTwo {
     class Solution {
     public:
         bool isPowerOfTwo(int n) {

@@ -30,7 +30,7 @@ int RunOneProblem(const ProblemEntry& problem) {
 }  // namespace
 
 int main() {
-    const std::string problem = "231.isPowerOfTwo";
+    const std::string problem = "257.binaryTreePaths";
 
     const ProblemEntry* entry = FindProblemByName(problem);
     
