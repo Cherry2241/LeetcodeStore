@@ -22,7 +22,7 @@ add_executable(leetcode_app
   src/main.cpp
   src/ProblemRegistry.cpp
   ${PROBLEM_SOURCES}
-  "src/problem/168.convertToTitle.cpp" "src/problem/257.binaryTreePaths.cpp")
+  "src/problem/168.convertToTitle.cpp" "src/problem/278.firstBadVersion.cpp")
 
 target_link_libraries(leetcode_app
   PRIVATE
