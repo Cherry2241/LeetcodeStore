@@ -28,6 +28,19 @@ inline std::vector<int> ToVector(const ListNode* head) {
     return values;
 }
 
+inline bool IsSameList(const ListNode* left, const ListNode* right) {
+    while (left != nullptr && right != nullptr) {
+        if (left->val != right->val) {
+            return false;
+        }
+
+        left = left->next;
+        right = right->next;
+    }
+
+    return left == nullptr && right == nullptr;
+}
+
 inline void FreeList(ListNode* head) {
     while (head != nullptr) {
         ListNode* next = head->next;
