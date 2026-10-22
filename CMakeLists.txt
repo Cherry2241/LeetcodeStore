@@ -22,7 +22,7 @@ add_executable(leetcode_app
   src/main.cpp
   src/ProblemRegistry.cpp
   ${PROBLEM_SOURCES}
-  "src/problem/168.convertToTitle.cpp" "src/problem/17.letterCombinations.cpp")
+  "src/problem/168.convertToTitle.cpp" "src/problem/40.combinationSum2.cpp")
 
 target_link_libraries(leetcode_app
   PRIVATE
