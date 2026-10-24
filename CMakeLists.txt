@@ -22,7 +22,7 @@ add_executable(leetcode_app
   src/main.cpp
   src/ProblemRegistry.cpp
   ${PROBLEM_SOURCES}
-  "src/problem/131.partition.cpp" "src/problem/40.combinationSum2.cpp")
+  "src/problem/131.partition.cpp" "src/problem/93.restoreIpAddresses.cpp")
 
 target_link_libraries(leetcode_app
   PRIVATE

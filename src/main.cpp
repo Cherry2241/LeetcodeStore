@@ -30,7 +30,7 @@ int RunOneProblem(const ProblemEntry& problem) {
 }  // namespace
 
 int main() {
-    const std::string problem = "131.partition";
+    const std::string problem = "93.restoreIpAddresses";
 
     const ProblemEntry* entry = FindProblemByName(problem);
     
