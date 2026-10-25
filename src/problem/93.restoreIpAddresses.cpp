@@ -3,7 +3,7 @@
 #include "helper/VerifyHelper.h"
 #include "ProblemRegistry.h"
 using namespace std;
-namespace problem_131_restoreIpAddresses {
+namespace problem_93_restoreIpAddresses {
     class Solution {
     public:
         vector<string> ans;
