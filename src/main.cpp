@@ -30,7 +30,7 @@ int RunOneProblem(const ProblemEntry& problem) {
 }  // namespace
 
 int main() {
-    const std::string problem = "90.subsetsWithDup";
+    const std::string problem = "150.evalRPN";
 
     const ProblemEntry* entry = FindProblemByName(problem);
     

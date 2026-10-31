@@ -22,7 +22,7 @@ add_executable(leetcode_app
   src/main.cpp
   src/ProblemRegistry.cpp
   ${PROBLEM_SOURCES}
-  "src/problem/131.partition.cpp" "src/problem/90.subsetsWithDup.cpp")
+  "src/problem/131.partition.cpp" "src/problem/150.evalRPN.cpp" "src/problem/47.permuteUnique.cpp")
 
 target_link_libraries(leetcode_app
   PRIVATE
