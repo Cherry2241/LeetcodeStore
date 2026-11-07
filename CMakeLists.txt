@@ -22,7 +22,7 @@ add_executable(leetcode_app
   src/main.cpp
   src/ProblemRegistry.cpp
   ${PROBLEM_SOURCES}
-  "src/problem/131.partition.cpp" "src/problem/150.evalRPN.cpp"  "src/problem/106.buildTree.cpp")
+  "src/problem/131.partition.cpp" "src/problem/383.canConstruct.cpp"  "src/problem/106.buildTree.cpp")
 
 target_link_libraries(leetcode_app
   PRIVATE
