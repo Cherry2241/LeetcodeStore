@@ -51,6 +51,20 @@ namespace helper {
 		return detail::MakeTree(std::vector<detail::TreeValue>(values));
 	}
 
+	inline bool IsSameTree(const TreeNode* first, const TreeNode* second) {
+		if (first == nullptr || second == nullptr) {
+			return first == second;
+		}
+
+		return first->val == second->val &&
+			IsSameTree(first->left, second->left) &&
+			IsSameTree(first->right, second->right);
+	}
+
+	inline bool isSameTree(const TreeNode* first, const TreeNode* second) {
+		return IsSameTree(first, second);
+	}
+
 	inline void FreeTree(TreeNode* root) {
 		if (root == nullptr) {
 			return;

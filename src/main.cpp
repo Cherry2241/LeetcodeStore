@@ -30,7 +30,7 @@ int RunOneProblem(const ProblemEntry& problem) {
 }  // namespace
 
 int main() {
-    const std::string problem = "383.canConstruct";
+    const std::string problem = "617.mergeTrees";
 
     const ProblemEntry* entry = FindProblemByName(problem);
     
