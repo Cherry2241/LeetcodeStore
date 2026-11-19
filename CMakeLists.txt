@@ -22,7 +22,7 @@ add_executable(leetcode_app
   src/main.cpp
   src/ProblemRegistry.cpp
   ${PROBLEM_SOURCES}
-  "src/problem/131.partition.cpp" "src/problem/700.searchBST.cpp"  "src/problem/617.mergeTrees.cpp")
+  "src/problem/131.partition.cpp" "src/problem/98.isValidBST.cpp"  "src/problem/617.mergeTrees.cpp")
 
 target_link_libraries(leetcode_app
   PRIVATE
